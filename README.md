@@ -1,6 +1,9 @@
 # Gify web
 A Simple react application to browse variety of gifs from the [tenor api](https://tenor.com/gifapi/documentation).
 
+# Preview
+<img src="https://github.com/YohannesTz/gify-web/blob/master/preview/gify-web-app.webp" alt="drawing" width="450" height="250"/>
+
 # MIT License (MIT)
 
 Copyright (c) Yohannes Tezera
