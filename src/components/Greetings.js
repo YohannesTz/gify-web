@@ -42,7 +42,7 @@ export default function Greetings() {
             }
         >
             <div className="px-8 grid grid-cols-3 gap-4">
-                {items.map(post => <GifCard url={post.media[0].tinygif.url} alt={post.media[0].content_description} key={post.id} />)}
+                {items.map(post => <GifCard url={post.media[0].gif.url} alt={post.media[0].content_description} key={post.id} />)}
             </div>
         </InfiniteScroll>
     );
