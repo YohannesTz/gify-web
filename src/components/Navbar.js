@@ -12,8 +12,10 @@ const Navbar = () => {
             </div>
             <div className="pr-8 md:block hidden">
                 <Link className="p-4" to='/'>Home</Link>
-                <Link className="p-4" to='/love'>Love</Link>
-                <Link className="p-4" to='/anime'>Anime</Link>
+                <Link className="p-4" to='/greetings'>Greetings</Link>
+                <Link className="p-4" to='/feelings'>Feelings</Link>
+                <Link className="p-4" to='/couples'>Couples</Link>
+                <Link className="p-4" to='/actions'>Actions</Link>
             </div>
         </nav>
     );

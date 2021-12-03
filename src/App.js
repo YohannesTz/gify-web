@@ -1,8 +1,9 @@
 import './App.css';
-import Love from './components/Love';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Anime from './components/Anime';
+import Greetings from './components/Greetings';
+import Feelings from './components/Feelings';
+import Couples from './components/Couples';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -12,8 +13,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home/>}/> 
-        <Route path="love" element={<Love/>} />
-        <Route path="Anime" element={<Anime/>} />
+        <Route path="greetings" element={<Greetings/>} />
+        <Route path="feelings" element={<Feelings/>} />
+        <Route path="couples" element={<Couples/>} />
       </Routes> 
     </>
   );
